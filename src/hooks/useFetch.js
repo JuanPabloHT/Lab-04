@@ -5,7 +5,6 @@ export function useFetch() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // función para hacer la petición
   const refetch = async (url) => {
     try {
       setLoading(true);
